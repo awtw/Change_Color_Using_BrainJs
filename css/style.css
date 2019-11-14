@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans|Bangers|Caveat|Dancing+Script|Fira+Sans+Extra+Condensed|Great+Vibes|Heebo|Josefin+Sans|Lato|Merienda|Montserrat|Mrs+Sheppards|Noto+Sans+TC|Noto+Serif+TC|Old+Standard+TT|Open+Sans|Open+Sans+Condensed:300|Playball|Poiret+One|Roboto");
+* {
+  font-family: 'Noto Sans TC', sans-serif; }
+
+.jumbotron {
+  padding: 30px 20px !important;
+  margin: 0;
+  width: 100%;
+  height: auto; }
+
+.demoPic {
+  width: 100%;
+  height: auto; }
+
+.box {
+  width: 100%;
+  height: auto;
+  background-color: red; }
+
+input {
+  margin: 30px 30px;
+  width: 100px;
+  height: 30px; }
+
+label {
+  background-color: black;
+  color: white;
+  padding: 1px 10px; }
+
+.area {
+  font-size: 2rem;
+  padding: 30px 30px;
+  font-family: 'Bangers', cursive; }
+
+.topdown {
+  padding-top: 30px; }
+
+@media screen and (max-width: 768px) {
+  .area {
+    font-size: 1rem; } }

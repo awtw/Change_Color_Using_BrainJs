@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Machine Learning Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/brain.js@1.1.2/browser.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                <h1>Hello, this is Machine Learning Testing</h1>
+                <p class="lead">請選擇不同顏色的背景，而字的顏色會隨著不同背景深淺而改變</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 box topdown" id="examples">
+                <input type="color" value="#ff0000" id="input" />
+                <label for="input">Select a color</label>
+
+                <div class="area" id="example">
+                    Text color will change when background color turn bright <br>
+                    請選擇顏色，這顏色將會改變背景顏色，而字體顏色也會隨著明亮而做調整
+                </div>
+            </div>
+            <div class="col-md-6 topdown">
+                <h1 class="display-5 text-center">程式碼演釋</h1>
+                <img src="./demo.png" alt="" class="demoPic">
+            </div>
+        </div>
+    </div>
+    <script src="./js/color.js"></script>
+</body>
+
+</html>
